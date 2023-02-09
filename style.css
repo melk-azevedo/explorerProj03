@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    font-size: 62.5%;
+}
+
 body,
 input,
 select,
@@ -28,12 +32,12 @@ body::before {
 }
 
 .page {
-    width: 740px;
+    width: 736px;
     margin: auto;
 }
 
 header {
-    width: 320px;
+    width: 319px;
 
     margin-top: 75px;
 }
@@ -151,12 +155,12 @@ fieldset legend {
     background-position: right 24px top 50%;
 }
 
-.col-3 {
+.camp-3 {
     display: flex;
     gap: 20px;
 }
 
-.col-3>div:nth-child(1) {
+.camp-3>div:nth-child(1) {
     width: 100%;
 }
 
@@ -235,5 +239,5 @@ footer .button:hover {
 }
 
 input:invalid {
-    border: 2px solid #964e4e;
+    border: 2px solid #FF1010;
 }
